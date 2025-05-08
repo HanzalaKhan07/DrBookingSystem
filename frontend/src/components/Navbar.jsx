@@ -10,7 +10,7 @@ const Navbar = ({children}) => {
   return (
     <div className="flex justify-between items-center py-4 mb-5 border-b border-b-gray-400">
       <div>
-        <img onClick={()=>navigate("/")} className="w-44 cursor-pointer" src={assets.logo} alt="logo" />
+        <img onClick={()=>navigate("/")} className="w-32 cursor-pointer" src={assets.logo} alt="logo" />
       </div>
       <NavLinks />
       {token ? <div className="flex gap-2 items-center cursor-pointer group relative">
